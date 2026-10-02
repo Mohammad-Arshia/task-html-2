@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>طراحی فرانت اند</title>
+  </head>
+
+  <body style="font-family: Tahoma, Arial; margin: 20px">
+    <header>
+      <h2
+        style="
+          color: #6a1b9a;
+          text-align: left;
+          direction: ltr;
+          border-bottom: 3px solid black;
+          padding-bottom: 10px;
+        "
+      >
+        Desktop
+      </h2>
+      <h3 style="color: #6a1b9a">آکادمی</h3>
+
+      <!-- لینک ها یا همون بخش ناوبری -->
+      <nav
+        style="
+          background-color: #f3e5f5;
+          border-radius: 10px;
+          padding: 12px 20px;
+          margin-top: 15px;
+          text-align: center;
+        "
+      >
+        <ul style="list-style: none; padding: 0; margin: 0">
+          <li style="display: inline-block; margin: 0 15px">
+            <a
+              href="#course"
+              style="
+                color: #6a1b9a;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 16px;
+              "
+              >معرفی دوره</a
+            >
+          </li>
+          <li style="display: inline-block; margin: 0 15px">
+            <a
+              href="#sessions"
+              style="
+                color: #6a1b9a;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 16px;
+              "
+              >جلسات</a
+            >
+          </li>
+          <li style="display: inline-block; margin: 0 15px">
+            <a
+              href="#contact"
+              style="
+                color: #6a1b9a;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 16px;
+              "
+              >تماس با ما</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article id="course">
+        <h1 style="color: #6a1b9a; text-align: center">طراحی فرانت اند</h1>
+
+        <!-- عرض صفحه حداکثر ۶۵۰: عکس اول | بزرگ‌تر از ۶۵۰: عکس دوم -->
+        <figure style="text-align: center; margin: 0">
+          <picture>
+            <source media="(max-width: 650px)" srcset="assets/mobile.jpg" />
+            <img
+              src="assets/defult.jpg"
+              alt="تصویر دوره طراحی فرانت‌اند"
+              style="width: 100%; max-width: 600px"
+            />
+          </picture>
+          <figcaption style="color: #7b1fa2; font-size: 14px; margin-top: 8px">
+            تصویر دوره طراحی فرانت‌اند
+          </figcaption>
+        </figure>
+      </article>
+
+      <section id="sessions">
+        <h2 style="color: #6a1b9a; text-align: center">جلسات</h2>
+
+        <table
+          style="width: 100%; border-collapse: collapse; text-align: center"
+        >
+          <thead>
+            <tr style="background-color: #9c27b0; color: white">
+              <th style="border: 1px solid black; padding: 12px">جلسه</th>
+              <th style="border: 1px solid black; padding: 12px">موضوع</th>
+              <th style="border: 1px solid black; padding: 12px">مدت</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="border: 1px solid black; padding: 12px">اول</td>
+              <td style="border: 1px solid black; padding: 12px">HTML</td>
+              <td style="border: 1px solid black; padding: 12px">۲ ساعت</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black; padding: 12px">دوم</td>
+              <td style="border: 1px solid black; padding: 12px">CSS</td>
+              <td style="border: 1px solid black; padding: 12px">۴ ساعت</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black; padding: 12px">سوم</td>
+              <td style="border: 1px solid black; padding: 12px">
+                جاوا اسکریپت
+              </td>
+              <td style="border: 1px solid black; padding: 12px">۴ ساعت</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black; padding: 12px">چهارم</td>
+              <td style="border: 1px solid black; padding: 12px">ری‌اکت</td>
+              <td style="border: 1px solid black; padding: 12px">۳ ساعت</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer id="contact" style="text-align: center; margin-top: 25px">
+      <form>
+        <button
+          type="submit"
+          style="
+            background-color: #9c27b0;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 35px;
+            font-size: 18px;
+          "
+        >
+          ارسال پیام
+        </button>
+      </form>
+    </footer>
+  </body>
+</html>
